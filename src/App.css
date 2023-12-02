@@ -1,0 +1,49 @@
+nav{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+.link-card{
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 705px;
+    margin: auto;
+    
+}
+img{
+    border: none;
+    border-radius: 10px;
+}
+.list-card{
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 705px;
+    margin: auto;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card-text{
+text-align: left;
+}
+.card-input{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+input{
+    margin: 20px;
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+}
+button{
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
